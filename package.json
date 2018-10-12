@@ -1,0 +1,29 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "node js app todo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpldev/nodeTodo.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "to",
+    "do"
+  ],
+  "author": "jpldev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpldev/nodeTodo/issues"
+  },
+  "homepage": "https://github.com/jpldev/nodeTodo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
