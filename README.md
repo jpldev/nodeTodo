@@ -7,9 +7,6 @@ Create, read, update delete items.
 
 Node installed
 
-```
-Give examples
-```
 
 ### Installing
 
