@@ -50,6 +50,18 @@ router.delete('/:id', function (req, res) {
 
 });
 
+//Query string
+router.get('/', function(req, res){
+    let query = req.query;
+
+    if(query.name){
+        let filtered = lists.filter(l => l.name.includes(query.name));
+        res.json(filtered);
+    } else{
+        res.json(lists);
+    }
+});
+
 
 // //Request - Response
 // router.get('/', function (req, res) {
