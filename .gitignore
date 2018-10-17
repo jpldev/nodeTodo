@@ -1,4 +1,7 @@
 
+#MongoDb
+data/db/
+
 # Logs
 logs
 *.log
